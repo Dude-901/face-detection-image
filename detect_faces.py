@@ -1,5 +1,7 @@
-# USAGE
-# python detect_faces.py --image rooster.jpg --prototxt deploy.prototxt.txt --model res10_300x300_ssd_iter_140000.caffemodel
+# Learned and used from pyimagesearch.com, no copyrights intended
+# code to add in command line
+# python detect_faces.py --image <complete_image_name> --prototxt deploy.prototxt.txt --model res10_300x300_ssd_iter_140000.caffemodel
+# make sure to have all the files in the same folder before running or add complete address of the file if directory is different.
 
 # import the necessary packages
 import numpy as np
